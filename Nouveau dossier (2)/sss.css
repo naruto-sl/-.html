@@ -1,0 +1,142 @@
+*, body,html {
+    margin: 0;
+    padding: 0;
+    font:1.03em "Open Sans", sans-serif;
+    
+    
+}
+body {
+    background-color: #eee;
+}
+/*--------------------------------------------*/
+
+.menu {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+}
+.menu #logo{
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+.menu > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+.menu >ul >li {
+    float: left;
+}
+.tt-nn {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    text-decoration: none;
+
+}
+.tt-nn:hover{
+    background-color: #ff0055;
+    color: #000;
+}
+#ss{
+	width: 100%;
+	height: 192px;
+	background-color: blueviolet;
+}
+.tt-nn {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    text-decoration: none;
+
+}
+.tt-nn:hover{
+    background-color: #ff0055;
+    color: #000;
+}
+
+
+div.movis-list{
+    width: 100%;
+     
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%  ;
+    grid-auto-rows: (0px,cover);
+    grid-gap: 4px;
+	
+    
+}
+.movis-list img {
+    background-size: cover;
+    width: 100%;
+    transform: 4s;
+	height: 190px;
+	
+    
+}
+.movis-lists:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+}
+.naruto{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+#vsss{
+    width: 100%;
+    height: 30px;
+    background-color:#333;
+}
+.button-m{
+    margin: 45px ;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+    color: white;
+    border: 2px solid #333;
+    border-radius:10px ;
+}
+.button-m:hover{
+    background: #c30909;
+    color:#fff;
+    transition: 0.5s;
+}
+
+#button-b{
+    margin: 18px ;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+    color: white;
+    border: 2px solid #333;
+    border-radius:10px ;
+}
+#button-b:hover{
+    background: #c30909;
+    color:#fff;
+    transition: 0.5s;
+}
+#button-t{
+    margin: 19px ;
+    margin-bottom: 6px;
+    text-decoration: none;
+
+    color: white;
+    border: 2px solid #333;
+    border-radius:10px ;
+}
+#button-t:hover{
+    background: #c30909;
+    color:#fff;
+    transition: 0.5s;
+} 
